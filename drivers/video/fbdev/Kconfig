@@ -2518,3 +2518,5 @@ config FB_RPISENSE
 
 	help
 	  This is the framebuffer driver for the Raspberry Pi Sense HAT
+
+source "drivers/video/fbdev/fbtft/Kconfig"

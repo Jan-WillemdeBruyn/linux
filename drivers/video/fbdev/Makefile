@@ -154,3 +154,4 @@ obj-$(CONFIG_FB_RPISENSE)	  += rpisense-fb.o
 
 # the test framebuffer is last
 obj-$(CONFIG_FB_VIRTUAL)          += vfb.o
+obj-y += fbtft/
